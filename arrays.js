@@ -4,15 +4,15 @@ function addElementToBeginningOfArray(array, element) {
   return [element,...array]
 }
 
-function destructivelyAddElementToBeginningOfArray(array){
- return array[1]
+function destructivelyAddElementToBeginningOfArray(array, element){
+ return array[element]
 }
 
 function addElementToEndOfArray(array, element) {
   return [...array, element]
 }
 
-function destructivelyAddElementToEndOfArray() {
+function destructivelyAddElementToEndOfArray(array, element) {
   return 
 }
 
