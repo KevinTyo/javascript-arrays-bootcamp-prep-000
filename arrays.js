@@ -29,5 +29,5 @@ function removeElementFromBeginningOfArray(array){
 }
 
 function removeElementFromEndOfArray(array) {
-  return array.slice()
+  return array.slice(-1)
 }
