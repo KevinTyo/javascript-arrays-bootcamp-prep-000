@@ -4,9 +4,16 @@ function addElementToBeginningOfArray(array, element) {
   return [element,...array]
 }
 
+function destructivelyAddElementToBeginningOfArray(){
+ return array[1]
+}
 
 function addElementToEndOfArray(array, element) {
   return [...array, element]
+}
+
+function destructivelyAddElementToEndOfArray() {
+  return 
 }
 
 function accessElementInArray(array, index){
